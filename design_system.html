@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Space Tours Project Design System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h1 class="text-violet">Star Tours  Project Design System</h1>
+    <section class="container">
+        <div class="design_container "   id="flow"> 
+            <h2 class="text-violet">Colors</h2>
+            <div class="color_block bg-primary-blue text-white">
+                <p> <span> Night Sky Blue </span></p>
+                 <p> <span>  #203435AO   </span> </p>
+            </div>
+            <div class="color_block bg-primary-violet text-white">
+                <p> <span>  Deep Violet  </span> </p>
+                <p> <span>  #4B0082  </span> </p>    
+            </div>
+            <div class="color_block bg-primary-green text-dark">
+                <p> <span> Warm Green </span></p>
+                <p>  <span> #4CAF50 </span> </p>
+            </div>
+            <div class="color_block bg-dark text-white">
+                <p> <span> Darker Grey </span> </p>
+                <p> <span> #0B0D17 </span> </p>
+            </div>
+            <div class="color_block bg-azure text-dark">
+                <P> <span> Azure Blue </span> </P>
+                <p> <span> #D0D6F9  </span> </p>
+            </div>
+            <div class="color_block bg-white text-dark">
+                <p>  <span> White  </span> </p>
+                <p> <span> #F5F5F5  </span> </p>
+            </div>
+         </div>  
+    </section>
+    <section class="container">
+        <div class="design_comtainer" > 
+            <h2 class="text-violet">Typography</h2>
+            <div class="font_container">
+                <p   class="headiing1 ">HEADING 1</p>
+                <p class = "fs-300">BELLEFAIR  REGULAR  - 100px </p>        
+            </div>
+            <div class="font_container">
+                <p   class="headiing2 ">HEADING 2</p>
+                <p class = "fs-300">BELLEFAIR  REGULAR  - 75px </p>     
+            </div>
+            <div class="font_container">
+                <p   class="headiing3 ">HEADING 3</p>
+                <p class = "fs-300">BELLEFAIR  REGULAR  - 50px </p>     
+            </div>
+            <div class="font_container">
+                <p   class="headiing4 ">HEADING 4</p>
+                <p class = "fs-300">BELLEFAIR  REGULAR  - 40px </p>     
+            </div>
+            <div class="font_container">
+                <p   class="headiing5 ">HEADING 5</p>
+                <p class = "fs-300">BELLEFAIR  REGULAR  - 32px </p>     
+            </div>
+            <div class="font_container">
+                <p   class="sub-headiing1">Subheading 1</p>
+                <p class = "fs-300">Bellefair Regular  - 28px </p>     
+            </div>
+            <div class="font_container">
+                <p   class="sub-headiing2">Subheading 2</p>
+                <p class = "fs-300">Barlow Condensed - 16px </p>     
+            </div>
+    
+            <div class="font_container">
+                <p   class="nav-text">Nav Bar Text</p>
+                <p class = "fs-300">Barlow Condensed  - 18px </p>     
+            </div>
+
+           
+            <div class="text_container" >
+                <h3 class="text-blue" >Text  ~ Barlow - 28px</h3>
+                <p class = "fs-300">Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Mollitia quasi, id recusandae quos dolore quis 
+                    natus voluptatibus odit aliquam ipsa, autem deserunt vitae earum 
+                    vero unde quia cum minus aut, labore ducimus nesciunt deleniti 
+                    molestias omnis praesentium! Voluptate, at vitae? Numquam, 
+                    voluptate fugit cupiditate laborum blanditiis adipisci iste impedit 
+                    vel. </p>     
+            </div>
+        </div>
+    </section>
+    <section class=" container spacing bg-primary-blue text-white">
+        <h2>Button</h2>
+        <div class="button_container "    > 
+          <div class="spacing">
+             <a href="#"    class="lg-button ">Explore</a>
+             <p>Landing Page Main Button </p>
+            </div>
+            <div >
+                <a href="#"    class="lg-button-hover">Explore</a>
+                <p>Landing Page Main Button  - Hover </p>
+               </div>
+        </div>
+  </section >
+  <section class=" container  spacing bg-white text-dark">
+    <h2>Interactive Elements</h2>
+    <div  class=" nav-text bg-dark  text-white">
+        <nav class=" nav_container  flex uppercase" >
+            <ul class="letter-spacing-2  ">
+                <li  ><a href="#"  class="active"> <span>01</span>  Active</a></li>
+                <li><a href="#"  class="underline"> <span>02</span>  Hover</a></li>
+                <li><a href="#" > <span>03</span>  Idle</a></li>
+            </ul>
+
+        </nav>
+    </div>
+  </section>
+  <section class=" container  spacing bg-white text-dark">
+        <h2>Navigation Tabs  ~ Active  Hover  Idle</h2>
+        <div class=" nav-text bg-dark  ">
+                <div  class="button_container  ">
+                    <button  aria-selected="true"    class="nav-button   letter-spacing-2">Carina Nebula</button>
+                    <button aria-selected="false"    class="nav-button   letter-spacing-2" >Stephan's Quintet</button>
+                    <button  aria-selected="false"  class="nav-button    letter-spacing-2" >Southern Ring Nebula</button>
+               <!-- aria is a way to give extra content to assisted technology -->
+                </div>
+        </div>
+        <h2>Slider Dots</h2>
+        <div class=" nav-text bg-dark  ">
+                <div  class="button_container2">
+                    <p class="text-white">Slider States   Active, Hover & Idle</p>
+                    <button  aria-selected="true"><span class="screenReader-only">Slide Title</span></button>
+                    <button aria-selected="false"><span class="screenReader-only">Slide Title</span></button>
+                    <button  aria-selected="false"   ><span class="screenReader-only">Slide Title</span></button>
+               <!-- aria is a way to give extra content to assisted technology -->
+                </div>
+        </div>
+    </section>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad suscipit, 
+        commodi magnam perspiciatis in, nesciunt consectetur error atque 
+        beatae, natus quam. Nemo minima repellat exercitationem!</p>
+    
+</body>
+</html>
